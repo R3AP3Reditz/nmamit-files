@@ -100,7 +100,7 @@
         function downloadVideo() {
             const link = document.createElement('a');
             link.href = downloadUrl;
-            link.download = 'video.mp4'; // You can specify a default name for the file here
+            link.download = 'video.mp4'; 
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
